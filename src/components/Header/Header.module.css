@@ -95,3 +95,27 @@ img {
     transform: translateX(0px);
   }
 }
+
+@media (max-width: 800px) {
+  .header > img {
+    width: 130px;
+  }
+
+  .header {
+    width: 100vw;
+    justify-content: space-around;
+    padding: 0px 10px;
+  }
+
+  form {
+    min-width: 10%;
+  }
+
+  .header > form > input {
+    display: none;
+  }
+
+  .buttonsBox > button {
+    display: none;
+  }
+}

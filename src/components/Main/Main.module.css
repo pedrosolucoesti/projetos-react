@@ -1,6 +1,5 @@
 .main {
   width: 100%;
-  height: 400vh;
 }
 
 .sectionMain {
@@ -117,4 +116,42 @@
 
 .priceBox > img {
   width: 200px;
+}
+
+@media (max-width: 800px) {
+
+  .sectionMain, .boxDescImg {
+    width: 100%;
+  }
+
+  .sectionMain {
+    height: 80vh;
+  }
+
+  .main {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .boxDescImg > h1 {
+    font-size: 35px
+  }
+
+  .boxDescImg > button {
+    width: 80%;
+  }
+
+  .sectionProduct {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+  }
+
+  .sectionProduct > img {
+    width: 90%;
+  }
 }

@@ -81,7 +81,7 @@
 }
 
 /* Responsividade */
-@media (max-width: 860px) {
+@media (max-width: 900px) {
   .dh-container {
     flex-direction: column;
     gap: 16px;
@@ -92,5 +92,9 @@
   }
   .dh-brand {
     order: 0;
+  }
+
+  .dh-footer {
+    height: auto;
   }
 }
